@@ -230,23 +230,12 @@ docker run -p 8000:8000 latam-challenge
 3. **Data Validation:** Provide sample datasets for testing edge cases
 4. **Documentation:** Add OpenAPI/Swagger documentation generation
 
-### Production Readiness Checklist
-- [x] Input validation and error handling
-- [x] Health check endpoints
-- [x] Containerized deployment
-- [x] CI/CD pipeline
-- [ ] Structured logging (JSON format)
-- [ ] Metrics and monitoring
-- [ ] Security scanning
-- [ ] Load testing results
-- [ ] Disaster recovery plan
-
 ## Key Technical Decisions
 
 1. **Logistic Regression over XGBoost**: Better interpretability and similar performance
 2. **Class Balancing**: Improved recall for minority class (delayed flights)
 3. **Top 10 Features**: Reduced complexity while maintaining performance  
-4. **FastAPI over Flask**: Better async support and automatic API documentation
+4. **FastAPI over Flask/Django**: Better async support and automatic API documentation, maybe sanic is better.
 5. **Cloud Run over GKE**: Serverless simplicity for MVP deployment
 6. **Python 3.13 Consistency**: Same version across local development, CI/CD, and production
 7. **Production Requirements**: Pinned dependency versions for reproducible deployments
