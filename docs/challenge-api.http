@@ -23,7 +23,7 @@ Content-Type: application/json
 
 ###
 
-POST https://latam-challenge-286167573468.southamerica-west1.run.app/predict
+POST https://latam-challenge-c6o6ncmbrq-tl.a.run.app/predict
 Content-Type: application/json
 
 {
