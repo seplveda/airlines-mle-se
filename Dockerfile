@@ -15,7 +15,7 @@ COPY challenge/ ./challenge/
 COPY data/ ./data/
 
 # Expose port
-EXPOSE 8000
+EXPOSE 8080
 
 # Command to run the application
 CMD ["uvicorn", "challenge:app", "--host", "0.0.0.0", "--port", "8000"]
