@@ -13,6 +13,9 @@ locust==2.33.0
 # Mocking framework
 mockito==1.5.4
 
+# Httpx
+httpx==0.28.1
+
 # Additional test utilities that may be needed
 pytest-mock>=3.14.0
 pytest-asyncio>=0.23.0
