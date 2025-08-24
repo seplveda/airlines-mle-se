@@ -37,8 +37,8 @@ jobs:
         gcloud run deploy latam-challenge \
           --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/latam-challenge:${{ github.sha }} \
           --platform managed \
+          --allow-unauthenticated \
           --region southamerica-west1 \
           --port 8080 \
           --memory 512Mi \
-          --cpu 1 \
-          --allow-unauthenticated
+          --cpu 1

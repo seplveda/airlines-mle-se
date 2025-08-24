@@ -23,3 +23,21 @@ Content-Type: application/json
 
 ###
 
+POST https://latam-challenge-286167573468.southamerica-west1.run.app/predict
+Content-Type: application/json
+
+{
+  "flights": [
+    {
+      "OPERA": "American Airlines",
+      "TIPOVUELO": "I",
+      "MES": 11
+    },
+    {
+      "OPERA": "Grupo LATAM",
+      "TIPOVUELO": "I",
+      "MES": 11
+    }
+  ]
+}
+
