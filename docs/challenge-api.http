@@ -1,0 +1,25 @@
+###
+
+# curl -X POST http://172.17.0.2:8000/predict
+#  -H "Content-Type: application/json"
+#  -d '{"flights": [{"OPERA": "American Airlines", "TIPOVUELO": "I", "MES": 1}]}'
+POST http://172.17.0.2:8000/predict
+Content-Type: application/json
+
+{
+  "flights": [
+    {
+      "OPERA": "American Airlines",
+      "TIPOVUELO": "I",
+      "MES": 11
+    },
+    {
+      "OPERA": "Grupo LATAM",
+      "TIPOVUELO": "I",
+      "MES": 11
+    }
+  ]
+}
+
+###
+

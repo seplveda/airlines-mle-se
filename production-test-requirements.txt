@@ -1,0 +1,18 @@
+# Test and development requirements for Python 3.13 compatibility
+
+# Testing framework
+pytest==8.4.1
+pytest-cov==6.2.1
+
+# Coverage reporting
+coverage==7.10.4
+
+# Load testing
+locust==2.33.0
+
+# Mocking framework
+mockito==1.6.0
+
+# Additional test utilities that may be needed
+pytest-mock>=3.14.0
+pytest-asyncio>=0.23.0
