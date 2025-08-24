@@ -11,7 +11,7 @@ coverage==7.10.4
 locust==2.33.0
 
 # Mocking framework
-mockito==1.6.0
+mockito==1.5.4
 
 # Additional test utilities that may be needed
 pytest-mock>=3.14.0
